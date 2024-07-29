@@ -112,7 +112,6 @@ class Translator {
         this.checkAmericanBritish(locale);
         this.checkTime(locale)
         this.checkTitle(locale)
-        console.log(this.resultText, this.matched);
     }
 
     highlightTranslation(){
